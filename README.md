@@ -1,6 +1,6 @@
 # Escape Room 3D
 
-Proyecto de Escape Room desarrollado en Unity.
+Proyecto de Escape Room 3D desarrollado en Unity.
 
 ## Integrantes del equipo
 - Integrante A: [Nombre]
