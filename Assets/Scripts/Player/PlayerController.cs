@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class PlayerController : MonoBehaviour
 {
@@ -11,8 +12,15 @@ public class PlayerController : MonoBehaviour
 
     private void Move()
     {
-        float h = Input.GetAxis("Horizontal");
-        float v = Input.GetAxis("Vertical");
+        if (Keyboard.current == null) return;
+
+        float h = 0f;
+        float v = 0f;
+
+        if (Keyboard.current.aKey.isPressed) h = -1f;
+        if (Keyboard.current.dKey.isPressed) h = 1f;
+        if (Keyboard.current.sKey.isPressed) v = -1f;
+        if (Keyboard.current.wKey.isPressed) v = 1f;
 
         Vector3 movement = new Vector3(h, 0f, v);
         transform.Translate(movement * speed * Time.deltaTime);
