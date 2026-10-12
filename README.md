@@ -2,7 +2,7 @@
 
 Proyecto de Escape Room desarrollado en Unity.
 
-## Integrantes
+## Integrantes del equipo
 - Integrante A: [Nombre]
 - Integrante B: [Nombre]
 - Integrante C: [Nombre]
