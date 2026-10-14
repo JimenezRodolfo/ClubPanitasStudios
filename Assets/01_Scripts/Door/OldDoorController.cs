@@ -9,9 +9,10 @@ public class OldDoorController : MonoBehaviour
     {
         if (Keyboard.current == null) return;
 
-        if (Keyboard.current.fKey.wasPressedThisFrame)
+        if (Keyboard.current.gKey.wasPressedThisFrame)
         {
             isOpen = !isOpen;
+            Debug.Log("Old door toggled");
         }
     }
 }
