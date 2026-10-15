@@ -24,5 +24,6 @@ public class PlayerController : MonoBehaviour
 
         Vector3 movement = new Vector3(h, 0f, v);
         transform.Translate(movement * speed * Time.deltaTime);
+        if (Keyboard.current.eKey.wasPressedThisFrame) Debug.Log("Interact key pressed");
     }
 }
