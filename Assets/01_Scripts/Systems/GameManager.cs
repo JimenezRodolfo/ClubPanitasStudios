@@ -7,7 +7,8 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
-        Debug.Log("GameManager preparado");
+        Initialize();
+        Debug.Log("Inicializado desde rama A");
     }
 
     public void Initialize()
