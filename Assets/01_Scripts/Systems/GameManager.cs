@@ -5,11 +5,13 @@ public class GameManager : MonoBehaviour
 {
     private int initializationCount = 0;
 
-    private void Start()
-    {
-        Initialize();
-        Debug.Log("Inicializado desde rama A");
-    }
+
+private void Start()
+{
+    Initialize();
+    Debug.Log("GameManager inicializado correctamente");
+}
+
 
     public void Initialize()
     {
