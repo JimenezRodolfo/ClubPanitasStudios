@@ -7,3 +7,4 @@ Proyecto de Escape Room 3D desarrollado en Unity.
 - Integrante B: [Nombre]
 - Integrante C: [Nombre]
 - Integrante D: [Nombre]
+Caso 12: commit incorrecto.

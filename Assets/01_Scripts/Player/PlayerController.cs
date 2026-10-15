@@ -11,7 +11,7 @@ public class PlayerController : MonoBehaviour
     }
 
     private void Move()
-    {
+    {   // movimiento actualizado
         if (Keyboard.current == null) return;
 
         float h = 0f;
