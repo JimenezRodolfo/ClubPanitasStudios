@@ -14,16 +14,14 @@ public class DoorController : MonoBehaviour
         {
             isOpen = !isOpen;
 
-
-if (isOpen)
-{
-    transform.rotation = Quaternion.Euler(0f, 0f, 0f);
-}
-else
-{
-    transform.rotation = Quaternion.Euler(0f, 0f, 0f);
-}
-
+            if (isOpen)
+            {
+                transform.rotation = Quaternion.Euler(0f, openAngle, 0f);
+            }
+            else
+            {
+                transform.rotation = Quaternion.Euler(0f, 0f, 0f);
+            }
         }
     }
 }
