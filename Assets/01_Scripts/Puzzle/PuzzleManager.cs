@@ -21,6 +21,13 @@ public class PuzzleManager : MonoBehaviour
     public void PressButton(int number)
     {
         if (solved) return;
+        
+if (correctCode == null || correctCode.Length == 0)
+{
+    Debug.LogWarning("Puzzle sin codigo configurado");
+    return;
+}
+
 
         if (number == correctCode[step])
         {
