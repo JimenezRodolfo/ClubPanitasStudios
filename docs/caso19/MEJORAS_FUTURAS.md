@@ -1,0 +1,1 @@
+# Mejoras futuras del puzzle
